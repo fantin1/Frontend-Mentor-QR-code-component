@@ -14,11 +14,7 @@
 
 body{
     height: 100vh;
-    background: linear-gradient(
-        90deg,
-        var(--slate-500) -90%,
-        var(--slate-300)
-    );
+    background-color: var(--slate-300);
     padding: 25vh 0;
     font-family: "Outfit", sans-serif;
     font-optical-sizing: auto;
@@ -57,4 +53,10 @@ img{
     border-radius: 1em;
 }
 
-@
+.attribution{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+}
