@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: https://fonts.google.com/specimen/Outfit';
+}
+
+:root{ 
+    --White: hsl(0, 0%, 100%);
+    --slate-300: hsl(212, 45%, 89%);
+    --slate-500: hsl(216, 15%, 48%);
+    --slate-900: hsl(218, 44%, 22%);
+}
+
+body{
+    height: 100vh;
+    background: linear-gradient(
+        90deg,
+        var(--slate-500) -90%,
+        var(--slate-300)
+    );
+    padding: 25vh 0;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.container{
+    width: 20em;
+    height: 30em;
+    padding: 1em;
+    margin: 0 auto;
+    background-color: var(--White);
+    border-radius: 1em;
+}
+
+.text{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1{
+    font-size: 1.2rem;
+    margin: 1em 0;
+    color: var(--slate-900);
+    font-weight: 700;
+}
+
+p{
+    font-size: .9rem;
+    font-weight: 400;
+    color: var(--slate-500);
+}
+
+img{
+    width: 100%;
+    border-radius: 1em;
+}
+
+@
